@@ -3,41 +3,49 @@
     padding: 0;
 }
 body{
-  height: 100hv; 
+  height: 100vh; 
   width:100%;
   margin: 10px;
-  background-color:hsl(227, 75%, 14%) ; 
+    background: hsl(227, 75%, 14%);
   display: flex;
-  align-items: center;
-  justify-items: center;
+  align-content: center;
+  justify-content: center;
   font-family: 'Noto Sans', sans-serif;
-
-
 }
 .main{
-    width:60%;
+    width:55%;
     height: 500px;
-    border-color: brown;
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: space-around;
     flex-direction: column;
 }
 .star{
        width: 100%;
-       background-color:hsl(226, 25%, 17%) ;
+       background-color:hsl(226, 25%, 17%);
        display: flex;
-       justify-items: center;
-       align-items: center;
-       color:hsl(0, 0%, 93%) ;
+       justify-content: space-evenly;
+       gap:570px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       border-radius: 15px;
+       align-content: center;
+       color:hsl(0, 0%, 93%);
+}
+.high{
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
 }
 .row{
      display: flex;
-       justify-items: center;
+       justify-content: space-between;
        align-items: center;
        flex-direction: row;
-       gap:330px;
+      padding-top: 15px;
+      padding-bottom: 15px;
        width: 100%;
+
 }
 .flex-container {
   display: flex;
@@ -72,7 +80,17 @@ body{
   flex-direction: column;
   
 }
-
+.img{
+   width:90px;
+    height: auto;
+    color: white;
+}
+.give{
+  background-color: hsl(225, 23%, 24%);
+  width: 25px;
+  padding: 5px;
+  border-radius: 10px;
+}
 
 .p-1{
     font-size: 25px;
@@ -83,7 +101,7 @@ body{
 .p-2{
   color:hsl(0, 0%, 93%);
   font-size: 10px;
-  align-self: flex-start;
+  text-align: left;
 }
 
 .a-1{
@@ -103,7 +121,7 @@ body{
     border-radius: 120px;
     border:none;
     align-self: flex-end;
-    background-color:hsl(226, 25%, 17%) ;
+    background-color:hsl(3, 77%, 44%) ;
      color:hsl(0, 0%, 93%);
 }
 .a-3{
@@ -128,7 +146,7 @@ body{
 .r-1{
     width:80px;
     align-items: flex-end;
-    border-color: white;
+    border-color:hsl(226, 11%, 37%);
     background-color: hsl(226, 25%, 17%);
     color:white;
     border-radius: 16px;
